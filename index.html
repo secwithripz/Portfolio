@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&family=Questrial&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>RIFNAS I M</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p>
+          Welcome to my portfolio! I'm a cybersecurity enthusiast with a passion
+          for ethical hacking, digital forensics, and securing systems against
+          real-world threats. I enjoy diving into various areas of information
+          security, constantly learning, experimenting, and sharpening my skills.
+          Whether it's penetration testing, malware analysis, or network defense,
+          I’m always eager to take on new challenges and collaborate with
+          like-minded professionals. Thanks for stopping by — I look forward to
+          building and securing something incredible together!
+        </p>
+        <div class="social-media">
+          <a href="https://facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a>
+          <a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a>
+          <a href="https://instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://youtube.com/" target="_blank"><i class="bx bxl-youtube"></i></a>
+          <a href="https://linkedin.com/in/rifnas-mohd" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="assets/cv.pdf" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/profile.png" alt="Profile Picture" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="About Image" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Ethical Hacker!</h3>
+        <p>
+          I am a dedicated and results-oriented cybersecurity professional with a
+          strong specialization in ethical hacking, network security, DevOps
+          practices, and software engineering. My expertise lies in designing and
+          developing advanced cybersecurity solutions that proactively address
+          complex security challenges. With a deep understanding of secure
+          systems architecture, automation, and threat mitigation strategies, I
+          am committed to driving innovation in the cybersecurity domain. I excel
+          at building scalable, secure, and efficient systems that align with
+          industry best practices and deliver measurable impact.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Expertise</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-shield-quarter"></i>
+          <h3>Cybersecurity & Ethical Hacking</h3>
+          <p>
+            I actively engage in ethical hacking, penetration testing, and CTF
+            competitions. I'm a TryHackMe player and have a deep understanding of
+            system exploitation, network defense, and threat analysis.
+          </p>
+          <a href="https://tryhackme.com/" class="btn" target="_blank">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-network-chart"></i>
+          <h3>Web Traffic Analysis</h3>
+          <p>
+            I developed <strong>MobSafeSuite</strong>, a Python-based web traffic
+            analyzer for mobile applications. It is available on
+            <a href="https://github.com/secwithripz/MobSafeSuite" target="_blank">GitHub</a>
+            and includes a proxy analyzer component:
+            <a href="https://github.com/secwithripz/Mobproxy-analyzer-web" target="_blank">MobProxy Analyzer Web</a>.
+          </p>
+          <a href="https://github.com/secwithripz/MobSafeSuite" class="btn" target="_blank">View Project</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-terminal"></i>
+          <h3>Software Engineering & Development</h3>
+          <p>
+            With a strong foundation in Python, Linux, and system programming, I
+            build efficient and secure software tailored to solve real-world
+            problems in cybersecurity and automation.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Projects</span></h2>
+
+      <div class="portfolio-container">
+        <!-- MobSafeSuite -->
+        <div class="portfolio-box">
+          <img src="images/port1.jpg" alt="MobSafeSuite" />
+          <div class="portfolio-layer">
+            <h4>MobSafeSuite</h4>
+            <p>
+              A Python-based toolkit for analyzing mobile app traffic. It features
+              proxy logging, visual reports, and web dashboards to help analyze
+              mobile data flows.
+            </p>
+            <a href="https://github.com/secwithripz/MobSafeSuite" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- MobSafe CLI -->
+        <div class="portfolio-box">
+          <img src="images/port2.jpg" alt="MobSafe CLI" />
+          <div class="portfolio-layer">
+            <h4>MobSafe CLI</h4>
+            <p>
+              A lightweight CLI tool for mobile traffic analysis. Ideal for quick,
+              headless operations in red teaming, debugging, or reverse engineering.
+            </p>
+            <a href="https://github.com/secwithripz/MobSafeCLI" target="_blank">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Placeholder Projects -->
+        <div class="portfolio-box">
+          <img src="images/port4.jpg" alt="Project Pending" />
+          <div class="portfolio-layer">
+            <h4>Pending..</h4>
+            <p>Under Development</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images/port5.jpg" alt="Project Pending" />
+          <div class="portfolio-layer">
+            <h4>Pending..</h4>
+            <p>Under Development</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="mailto:rifnas.techsec@gmail.com" method="post" enctype="text/plain">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Rifnas I M | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTap">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
